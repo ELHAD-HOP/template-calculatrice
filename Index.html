@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATRICE</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>CALCULATRICE COMMERCIALE</h1><br />
+    <form id="formulaire" name="calcul">
+        <input name="champS" style="width:470px;height: 1--px;text-align:right;background-color: #8a8d7f; color:white;"><br>
+        <input type="button" value="0" onclick="calcul.champS.value +=0;">
+        <input type="button" value="1" onclick="calcul.champS.value +=1">
+        <input type="button" value="2" onclick="calcul.champS.value +=2">
+        <input type="button" value="+" onclick="calcul.champS.value += '+';" style="background-color:orange;"><br />
+        <input type="button" value="3" onclick="calcul.champS.value +=3;">
+        <input type="button" value="4" onclick="calcul.champS.value +=4">
+        <input type="button" value="5" onclick="calcul.champS.value +=5">
+        <input type="button" value="-" onclick="calcul.champS.value += '-';" style="background-color: orange;"><br />
+        <input type="button" value="6" onclick="calcul.champS.value +=6">
+        <input type="button" value="7" onclick="calcul.champS.value +=7">
+        <input type="button" value="8" onclick="calcul.champS.value +=8">
+        <input type="button" value="x" onclick="calcul.champS.value += '*';" style="background-color: orange;"><br />
+        <input type="button" value="9" onclick="calcul.champS.value +=9">
+        <input type="button" value="=" onclick="calcul.champS.value=eval(calcul.champS.value) ">
+        <input type="button" value="C" onclick="calcul.champS.value  ='';" style="background-color:blue;">
+        <input type="button" value="&#247" onclick="calcul.champS.value += '/';" style="background-color: orange;">
+        
+
+        
+    </form>
+    <br>
+</body>
+
+</html>

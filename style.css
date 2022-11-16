@@ -1,0 +1,19 @@
+input {
+  width: 100px;
+  height: 70px;
+  font-size: 40px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #000;
+  color: #fff;
+  border-style: none;
+}
+#formulaire {
+  text-align: center;
+  margin-top: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 3px;
+}
